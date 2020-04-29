@@ -1,0 +1,62 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0px;
+    z-index: 100;
+    align-content: center;
+}
+
+.HeaderGroup  {
+    max-width: 800px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    justify-items: center;
+
+}
+
+.Header a{
+    color:white;
+    font-weight: 700;
+}
+
+.Header button  {
+    padding: 8px 20px;
+    font-size: 20px;
+    background: #56CCF2;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+.Header button:hover {
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px)   {
+    .Header{
+        padding: 15px 0;
+
+    }
+
+    .HeaderGroup{
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .Header :nth-child(3)   {
+        display: none;
+    }
+    .Header :nth-child(2)   {
+        display: none;
+    }
+}
