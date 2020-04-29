@@ -4,6 +4,8 @@
     padding: 50px 0px;
     z-index: 100;
     align-content: center;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+
 }
 
 .HeaderGroup  {
@@ -13,7 +15,6 @@
     grid-template-columns: repeat(6, auto);
     align-items: center;
     justify-items: center;
-
 }
 
 .Header a{
@@ -59,4 +60,15 @@
     .Header :nth-child(2)   {
         display: none;
     }
+}
+
+
+.HeaderScrolled {
+    background: rgba(0,0,0, 0.8);
+    padding: 15px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderScrolled a{
+    color: #fcbf1e;
 }
