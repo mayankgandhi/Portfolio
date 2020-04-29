@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Card from '../components/Card';
 
-const SecondPage = () => (
+const resumePage = () => (
 	<div>
 		<div className="Hero">
 			<div className="HeroGroup">
@@ -26,4 +26,4 @@ const SecondPage = () => (
 	</div>
 );
 
-export default SecondPage;
+export default resumePage;

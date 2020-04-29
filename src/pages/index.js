@@ -8,7 +8,8 @@ const IndexPage = () => (
 				<h1>Hi people</h1>
 				<p>Welcome to Mayank's Porfolio.</p>
 				<p>Now go build something great.</p>
-				<Link to="/page-2/">Go to page 2</Link>
+
+				
 				<svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
 					<path fill="white">
 						<animate
