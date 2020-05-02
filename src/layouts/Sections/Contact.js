@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../../components/Header'
-
+import Header from '../../components/Header';
+import './Contact.css'
 
 class Contact extends React.Component {
 	constructor(props) {
@@ -11,9 +11,10 @@ class Contact extends React.Component {
 		return (
 			<div>
 				<Header />
-
-				<h1>Contact Section</h1>
-				This is the Contact Section
+				<div className="ContactContent">
+					<h1>Contact Section</h1>
+					This is the Contact Section
+				</div>
 			</div>
 		);
 	}

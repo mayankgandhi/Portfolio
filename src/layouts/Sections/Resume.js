@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Header from '../../components/Header';
+import ResumePage from '../../components/ResumePage'
+import './Resume.css';
 
 class Resume extends React.Component {
 	constructor(props) {
@@ -11,8 +12,10 @@ class Resume extends React.Component {
 		return (
 			<div>
 				<Header />
-				<h1>Resume Section</h1>
-				This is the resume section.
+				<div className="ResumeContent">
+					<h1>Resume Section</h1>
+					<ResumePage />
+				</div>
 			</div>
 		);
 	}

@@ -1,0 +1,40 @@
+.ResumePage {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "title ."
+        "work education"
+        "certification skills";
+}
+
+.Title{
+    grid-area: title;
+    background-color: blue;
+    border: 3px;
+    border-style: solid;
+  border-color: red;
+}
+
+.Work{
+    grid-area: work;
+    background-color: red;
+}
+
+.Education{
+    grid-area: education;
+    background-color: green;
+}
+
+.Skills {
+    grid-area: skills;
+    background-color: yellow;
+}
+
+.certification  {
+    grid-area: certification;
+    background-color: blueviolet;
+}

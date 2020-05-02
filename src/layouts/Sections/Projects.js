@@ -13,7 +13,7 @@ class Projects extends React.Component {
 		return (
 			<div>
 				<Header />
-				<div className="projectsSection">
+				<div className="ProjectsContent">
 					<h1>Projects Section</h1>
 					This is the project Section
 					<div className="ListProjects">
