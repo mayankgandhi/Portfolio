@@ -22,7 +22,6 @@ const IndexPage = () => (
 		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
 		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
 		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
-
 		<Footer />
 	</div>
 );
