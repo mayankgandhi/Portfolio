@@ -1,75 +1,53 @@
-.Header {
-    position: fixed;
-    width: 100%;
-    padding: 50px 0px;
-    z-index: 100;
-    align-content: center;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
-}
-
-.HeaderGroup  {
-    max-width: 800px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(6, auto);
-    align-items: center;
-    justify-items: center;
-}
-
 .Header a{
-    color:white;
-    font-weight: 550;
+    margin-top: 200px;
+    color: #0D3B66;
 }
 
-.Header button  {
-    padding: 8px 20px;
-    font-size: 20px;
-    background: #56CCF2;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.5s;
-    animation: HeroAnimation;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-
-}
-
-.Header button:hover {
-    background: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    transform: translateY(-3px);
+.Header     {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:white;
+    color: black;
+    background-color: white;
+    text-align: right;
 }
 
 
-
-@media (max-width: 600px)   {
-    .Header{
-        padding: 15px 0;
-
-    }
-
-    .HeaderGroup{
-        grid-template-columns: repeat(4, auto);
-    }
-
-    .Header :nth-child(3)   {
-        display: none;
-    }
-    .Header :nth-child(2)   {
-        display: none;
-    }
+.Header a:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;  
 }
 
-
-.HeaderScrolled {
-    background: rgba(0,0,0, 0.8);
-    padding: 15px 0;
-    backdrop-filter: blur(20px);
+.Header     {
+    display: grid;
+    grid-template-columns: 55% 10% 10% 10% 10% 5%;
+    grid-template-areas: "logo about projects resume contact .";
 }
 
-.HeaderScrolled a{
-    color: #fcbf1e;
+.Logo h2{
+    grid-area: logo;
+    text-align: left;
+    font-size: large;
+    padding: 15px;
+}
+
+.AboutElement  {
+    grid-area: about;
+}
+.ProjectsElement    {
+    grid-area: projects;
+}
+.ResumeElement   {
+    grid-area: resume;
+}
+.ContactElement {
+    grid-area: contact;
 }

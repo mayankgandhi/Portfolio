@@ -1,27 +1,23 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import './Footer.css';
 
-class Footer extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
-	render() {
-		return (
-			<div className="Footer">
-				<div className="FooterGroup">
-					<Link to="/cheatsheets">Email</Link>
-					<Link to="/resources">Linkedin</Link>
-					<Link to="/resume">Github</Link>
-					<Link to="/resume">Twitter</Link>
-					<Link to="/connect">
-						<button>Resume</button>
-					</Link>
-				</div>
-			</div>
-		);
-	}
-}
-
+const Footer = (props) => (
+	<div className="Footer">
+        <div className="DevCredits">
+			Designed and Developed by<br></br>Mayank Gandhi ©2020
+		</div>
+		<div className="GithubElement">
+			<a href="#about">Github</a>
+		</div>
+		<div className="LinkedinElement">
+			<a href="#projects">Linkedin</a>
+		</div>
+		<div className="EmailElement">
+			<a href="#resume">Email</a>
+		</div>
+		<div className="TwitterElement">
+			<a href="#contact">Twitter</a>
+		</div>
+	</div>
+);
 export default Footer;

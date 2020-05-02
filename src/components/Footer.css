@@ -1,51 +1,55 @@
-.Footer {
-    display: grid;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    align-content: center;
-    justify-content: center;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
-    grid-template-columns: 20% 40% 40%;
-    grid-template-areas: "devCredits . medialinks";
-}
-
-.FooterGroup  {
-    grid-area: medialinks;
-    max-width: 800px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(6, auto);
-    align-items: center;
-    justify-items: center;
-}
-
-.FooterNavGroup  {
-    max-width: 900px;
-    margin: 0 auto;
-    font-size: medium;
-    font-weight: 300;
-    grid-area: devCredits;
-}
 
 .Footer a{
-    color:black;
-    font-weight: 550;
-    padding: 10px 10px 10px 10px;
+    font-weight: 300;
+    font-size: medium;
+    color: black;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
 }
 
-.Footer button  {
-    padding: 8px 20px;
-    font-size: 20px;
-    background: #56CCF2;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.5s;
-    animation: HeroAnimation;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+.Footer a:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;  
+}
 
+.Footer     {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    display: grid;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: black;
+    text-align: right;
+    grid-template-columns: 55% 10% 10% 10% 10% 5%;
+    grid-template-areas: "credits github linkedin email twitter .";
+}
+
+.DevCredits{
+    grid-area: credits;
+    text-align: left;
+    font-size: x-small;
+}
+
+.GithubElement  {
+    grid-area: github;
+}
+.LinkedinElement    {
+    grid-area: linkedin;
+}
+.EmailElement   {
+    grid-area: email;
+}
+.TwitterElement {
+    grid-area: twitter;
 }

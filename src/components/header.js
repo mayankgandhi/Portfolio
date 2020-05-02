@@ -1,50 +1,23 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import './Header.css';
 
-class Header extends React.Component {
-	constructor(props) {
-		super(props);
-
-		this.state = {
-			hasScrolled: false
-		};
-	}
-
-	componentDidMount() {
-		window.addEventListener('scroll', this.handleScroll);
-	}
-
-	handleScroll = (event) => {
-		const scrollTop = window.pageYOffset;
-
-		if (scrollTop > 50) {
-			this.setState({ hasScrolled: true });
-		} else {
-			this.setState({ hasScrolled: false });
-		}
-	};
-
-	render() {
-		return (
-			<div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-				<div className="HeaderGroup">
-					Add yourLogo
-					<Link to="/">
-						{' '}
-						<img src="" />
-					</Link>
-					<Link to="/cheatsheets">Cheatsheets</Link>
-					<Link to="/resources">Resources</Link>
-					<Link to="/resume">Resume</Link>
-					<Link to="/connect">
-						{' '}
-						<button>Connect</button>
-					</Link>
-				</div>
-			</div>
-		);
-	}
-}
-
+const Header = (props) => (
+	<div className="Header">
+        <div className="Logo">
+			<h2>Mayank Gandhi</h2>
+		</div>
+		<div className="AboutElement">
+			<a href="#about">About</a>
+		</div>
+		<div className="ProjectsElement">
+			<a href="#projects">Projects</a>
+		</div>
+		<div className="ResumeElement">
+			<a href="#resume">Resume</a>
+		</div>
+		<div className="ContactElement">
+			<a href="#contact">Contact</a>
+		</div>
+	</div>
+);
 export default Header;
