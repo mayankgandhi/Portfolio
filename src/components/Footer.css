@@ -1,13 +1,17 @@
-.Header {
+.Footer {
+    display: grid;
     position: fixed;
     width: 100%;
-    padding: 50px 0px;
     z-index: 100;
     align-content: center;
+    justify-content: center;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas: "devCredits . medialinks";
 }
 
-.HeaderGroup  {
+.FooterGroup  {
+    grid-area: medialinks;
     max-width: 800px;
     display: grid;
     margin: 0 auto;
@@ -16,12 +20,21 @@
     justify-items: center;
 }
 
-.Header a{
-    color:white;
-    font-weight: 550;
+.FooterNavGroup  {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: medium;
+    font-weight: 300;
+    grid-area: devCredits;
 }
 
-.Header button  {
+.Footer a{
+    color:black;
+    font-weight: 550;
+    padding: 10px 10px 10px 10px;
+}
+
+.Footer button  {
     padding: 8px 20px;
     font-size: 20px;
     background: #56CCF2;
@@ -35,41 +48,4 @@
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 
-}
-
-.Header button:hover {
-    background: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    transform: translateY(-3px);
-}
-
-
-
-@media (max-width: 600px)   {
-    .Header{
-        padding: 15px 0;
-
-    }
-
-    .HeaderGroup{
-        grid-template-columns: repeat(4, auto);
-    }
-
-    .Header :nth-child(3)   {
-        display: none;
-    }
-    .Header :nth-child(2)   {
-        display: none;
-    }
-}
-
-
-.HeaderScrolled {
-    background: rgba(0,0,0, 0.8);
-    padding: 15px 0;
-    backdrop-filter: blur(20px);
-}
-
-.HeaderScrolled a{
-    color: #fcbf1e;
 }

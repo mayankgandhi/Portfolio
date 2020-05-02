@@ -1,40 +1,29 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Section from '../components/Section'
+import Footer from '../components/Footer';
+import Wave from '../components/Wave';
+import AboutSection from '../components/AboutSection';
 
 const IndexPage = () => (
-	<div>
+	<div className="container">
 		<div className="Hero">
 			<div className="HeroGroup">
-				<h1>Hi people</h1>
-				<p>Welcome to Mayank's Porfolio.</p>
-				<p>Now go build something great.</p>
-
-				
-				<svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
-					<path fill="white">
-						<animate
-							repeatCount="indefinite"
-							fill="freeze"
-							attributeName="d"
-							dur="10s"
-							values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
-
-    M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;
-
-    M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;
- 
-    M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;"
-						/>
-					</path>
-				</svg>
-
-				<Section
-  
-  title="React for Designers"
-  text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify." />
+				<h4>Hi! My name is</h4>
+				<h1>Mayank Gandhi</h1>
+				<p>
+					I'm a Full Stack Software Engineer passionate in building great mobile and web applications that
+					make the internet a cooler place. This portfolio not only consists information about my projects and
+					my experience but also has some resources that I like to use from time to time.
+				</p>
+				<Wave />
 			</div>
 		</div>
+		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
+		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
+		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
+		<AboutSection title="About Me" subTitle="This is the aboutMe Section"/>
+
+		<Footer />
 	</div>
 );
 
