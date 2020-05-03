@@ -13,7 +13,6 @@ class Resume extends React.Component {
 			<div>
 				<Header />
 				<div className="ResumeContent">
-					<h1>Resume Section</h1>
 					<ResumePage />
 				</div>
 			</div>
