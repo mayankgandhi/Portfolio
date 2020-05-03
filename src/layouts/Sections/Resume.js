@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../../components/Header';
-import ResumePage from '../../components/ResumePage'
 import './Resume.css';
 
 class Resume extends React.Component {
@@ -13,7 +12,7 @@ class Resume extends React.Component {
 			<div>
 				<Header />
 				<div className="ResumeContent">
-					<ResumePage />
+					This is the Resume Page
 				</div>
 			</div>
 		);

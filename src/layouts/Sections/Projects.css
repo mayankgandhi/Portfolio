@@ -1,6 +1,23 @@
 .ListProjects   {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "card1 card2 card3 card4";
 }
+
+#card-1 {
+    grid-area: card1;
+}
+#card-2 {
+    grid-area: card2;
+}
+#card-3 {
+    grid-area: card3;
+}
+#card-4 {
+    grid-area: card4;
+}
+
 
 .ProjectsContent    {
     margin: 100px;

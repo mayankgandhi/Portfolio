@@ -1,9 +1,7 @@
 import React from 'react';
 import Card from '../../components/Card';
 import './Projects.css';
-import Header from '../../components/Header'
-import FlipCard from '../../components/FlipCard';
-
+import Header from '../../components/Header';
 
 class Projects extends React.Component {
 	constructor(props) {
@@ -16,10 +14,19 @@ class Projects extends React.Component {
 				<Header />
 				<div className="ProjectsContent">
 					<h1>Projects Section</h1>
-					This is the project Section
 					<div className="ListProjects">
-						<Card title="Photo Share" text="This is a photosharing project" />
-						<FlipCard />
+						<div id="card-1">
+							<Card title="Photo Share" text="This is a photosharing project" />
+						</div>
+						<div id="card-2">
+							<Card title="Photo Share" text="This is a photosharing project" />
+						</div>
+						<div id="card-3">
+							<Card title="Photo Share" text="This is a photosharing project" />
+						</div>
+						<div id="card-4">
+							<Card title="Photo Share" text="This is a photosharing project" />
+						</div>
 					</div>
 				</div>
 			</div>
