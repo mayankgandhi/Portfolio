@@ -13,7 +13,6 @@ body {
 }
 
 a {
-  color: #5334f5;
   text-decoration: none;
   font-weight: 600;
 }
@@ -21,7 +20,6 @@ a {
 section {
   height: 100vh;
   width: 100vw;
-  margin-top: 100px;
 
   scroll-snap-align: start;
 }
@@ -44,10 +42,7 @@ section {
   scroll-snap-align: start;
   text-align: center;
   position: relative;
-  background-color: #FDFDE8;
-}
-
-#about #resume #projects #contact {
+  background-color: #F7F7F9;
 }
 
 section h1{
@@ -55,7 +50,7 @@ section h1{
 }
 
 #about h1{
-  color: #000F08;
+  color: #2E282A;
 }
 
 
@@ -65,10 +60,11 @@ section h1{
 }
 
 #resume h1 {
-  color: #2E282A;
+  color: #090C9B;
 }
 
+
 #contact h1 {
-  color: #F34213;
+  color: #8F001A;
 
 }

@@ -1,3 +1,7 @@
 .AboutContent {
-    margin: 100px;
+    margin: 400px;
+}
+
+.AboutContent h1{
+    color: #F2FF49;
 }

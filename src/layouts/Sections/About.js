@@ -12,10 +12,10 @@ class About extends React.Component {
 			<div>
 				<Header />
 				<div className="AboutContent">
-				<h1>About Me</h1>
-				Hi My Name is Mayank Gandhi
+				<h1>Hi!</h1>
+				<h3>I'm Mayank.</h3>
+				Software Developer. Food Enthusiast.
 				</div>
-				
 			</div>
 		);
 	}
