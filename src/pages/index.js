@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import About from '../layouts/Sections/About';
-import Projects from '../layouts/Sections/Projects';
-import Resume from '../layouts/Sections/Resume';
-import Contact from '../layouts/Sections/Contact';
+import About from '../layouts/About';
+import Projects from '../layouts/Projects';
+import Resume from '../layouts/Resume';
+import Contact from '../layouts/Contact';
 
 const IndexPage = () => (
 	<div>

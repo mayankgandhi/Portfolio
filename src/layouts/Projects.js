@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../../components/Card';
-import './Projects.css';
-import Header from '../../components/Header';
+import Card from '../components/Card';
+import '../styles/Projects.css'
+import Header from '../components/Header';
 
 class Projects extends React.Component {
 	constructor(props) {
