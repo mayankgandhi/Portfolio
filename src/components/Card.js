@@ -1,11 +1,11 @@
 import React from 'react'  
-import './Card.css'
+import '../styles/Card.css';
 
 const Card = props => (
     <div className="Card">
-        <img src={props.image} />
         <h3>{props.title}</h3>
         <p>{props.text}</p>
+        <h5>Stack:{props.stack}</h5>
     </div>
 )
 

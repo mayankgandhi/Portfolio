@@ -1,5 +1,5 @@
 .Header     {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     position: fixed;
     left: 0;
     top: 0px;
@@ -23,11 +23,15 @@
     grid-template-areas: "logo about projects resume contact .";
 }
 
-.Logo h2    {
+.Header h2   {
     grid-area: logo;
     text-align: left;
     font-size: large;
     padding: 15px;
+}
+
+.Header a{
+    
 }
 .AboutElement  {
     grid-area: about;

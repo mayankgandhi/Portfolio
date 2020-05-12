@@ -1,6 +1,6 @@
 .Card {
-    width: 300px;
-    height: 575px;
+    width: 400px;
+    height: 375px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -9,7 +9,7 @@
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
-    background: black;
+    background: white;
     margin: 20px;
     clear: both;
 }
@@ -19,29 +19,15 @@
     box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
 }
 
-.Card:hover img {
-    transform: translateY(-20px);
-}
-
-.Card img {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
 .Card h3 {
-    color: white;
+    color: black;
     font-size: 30px;
     margin: 20px 0 0 20px;
     width: 190px;
 }
 
 .Card p {
-    color: rgba(255,255,255, 0.8);
-    text-transform: uppercase;
+    color: rgba(0,0,0, 0.8);
     font-weight: 600;
     font-size: 18px;
-    align-self: end
 }
