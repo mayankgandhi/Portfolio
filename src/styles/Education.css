@@ -2,3 +2,7 @@
     margin: 100px;
     font-family: Helvetica;
 }
+
+.Education  {
+    display: flex;
+}

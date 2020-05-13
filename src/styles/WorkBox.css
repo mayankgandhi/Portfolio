@@ -1,15 +1,22 @@
-.WorkBox  {
-    padding: 10px;
-    background-color: white;
+.WorkBox {
     font-family: Helvetica;
-    justify-content: left;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: white;
+    margin: 20px;
+    clear: both;
+}
+
+.WorkBox:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
 }
 
 .WorkBox p  {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
     text-align: left;
 }

@@ -3,20 +3,13 @@
     font-family: Helvetica;
 }
 
-.ResumeBox  {
-    display: grid;
-    height: 80%;
-    width: 80%;
-    overflow: hidden;   
-    grid-template-columns: 70% auto;
-    grid-template-areas: "workEx edu";
-}
-
 .WorkExperience {
-    grid-area: workEx;
     padding: 0;
     margin: 0;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex;
 }
 
 .Title  {
@@ -26,11 +19,6 @@
     text-align: left;
     padding: 10px;
     font-weight: 700;
-}
-
-.Education  {
-    grid-area: edu;
-    
 }
 
 .EducationBox   {

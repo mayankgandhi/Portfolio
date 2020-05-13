@@ -4,12 +4,15 @@
     left: 0;
     top: 0px;
     width: 100%;
-    background-color: transparent;
+    background-color: #1b0e58;
     text-align: center;
+    animation: HeroAnimation 1s 2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+    color: #BBE5D5;
 }
 
 .Header a:hover{
-    color: blue;
+    color: #33847C;
 }
 
 .Header     {
@@ -23,12 +26,24 @@
     text-align: left;
     font-size: large;
     padding-left: 15px;
-    color: white;
+    color: #BBE5D5;
 }
 
 .Header a{
     vertical-align: bottom;
     text-align: center;
     margin-top: 15px;
-    color: white
+    color: #BBE5D5
 }
+
+
+@keyframes HeroAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+  }
