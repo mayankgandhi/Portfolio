@@ -1,7 +1,25 @@
-.AboutContent {
-    margin: 400px;
+.AboutContainer {
+    align-items: center;
+    
 }
 
-.AboutContent h1{
-    color: #F2FF49;
+.AboutContent {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "hero animate";
+    padding-top: 20%;
+}
+
+.homeAnimation  {
+    width:500px;
+    height: 500px;
+}
+
+.Hero   {
+    grid-area: hero ;
+}
+
+.homeAnimation  {
+    grid-area: animate;
+    padding: 20px;
 }

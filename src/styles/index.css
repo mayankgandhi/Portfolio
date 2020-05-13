@@ -19,7 +19,7 @@ a {
 section {
   height: 100vh;
   width: 100vw;
-
+  overflow: hidden;
   scroll-snap-align: start;
 }
 
@@ -46,22 +46,17 @@ section h1{
   font-size: 56px;
 }
 
-#about h1{
-  color: #2E282A;
+#about {
+  background-color: #CAF0F8;
+  align-content: center;
+}
+#projects {
+ background-color: #90E0EF;
+}
+#work {
+  background-color: #CAF0F8;
+}
+#education  {
+  background-color: #90E0EF;
 }
 
-
-#projects h1  {
-  color: #136F63;
-
-}
-
-#resume h1 {
-  color: #090C9B;
-}
-
-
-#contact h1 {
-  color: #8F001A;
-
-}

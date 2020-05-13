@@ -1,0 +1,52 @@
+.WorkBox  {
+    padding: 10px;
+    background-color: white;
+    font-family: Helvetica;
+    justify-content: left;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.WorkBox p  {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.WorkInfo {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "role period"
+    "company .";
+    justify-content: left;
+    align-content: left;
+    justify-self: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.WorkBox h5 {
+    grid-area: period;
+    margin: 0;
+    padding: 0%;
+    text-align: right;
+    font-size: 15px;
+}
+
+.WorkBox h3 {
+    grid-area: role;
+    margin: 0;
+    padding: 0%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.WorkBox h4{
+    grid-area: company;
+    margin: 0;
+    padding: 0%;
+    text-align: left;
+    font-size: 18px;
+}

@@ -1,22 +1,23 @@
 import React from 'react';
 import Header from '../components/Header';
-import '../styles/Resume.css';
+import '../styles/Education.css';
 
-class Resume extends React.Component {
+
+class Education extends React.Component {
 	constructor(props) {
 		super(props);
 	}
-	
+
 	render() {
 		return (
 			<div>
 				<Header />
-				<div className="ResumeContent">
-					This is the Resume Page
+				<div className="EduContent">
+					<h1>Education Section</h1>
 				</div>
 			</div>
 		);
 	}
 }
 
-export default Resume;
+export default Education;

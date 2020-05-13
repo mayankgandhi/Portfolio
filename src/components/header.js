@@ -6,8 +6,8 @@ const Header = (props) => (
 				<h2>Mayank Gandhi</h2>
 				<a href="#about">About</a>
 				<a href="#projects">Projects</a>
-				<a href="#resume">Resume</a>
-				<a href="#contact">Contact</a>
+				<a href="#work">Work</a>
+				<a href="#education">Education</a>
 	</div>
 );
 export default Header;

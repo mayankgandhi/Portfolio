@@ -4,22 +4,17 @@
     left: 0;
     top: 0px;
     width: 100%;
-    background-color:#FFFFFF;
+    background-color: transparent;
     text-align: center;
 }
 
 .Header a:hover{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    text-decoration: none;  
+    color: blue;
 }
 
 .Header     {
     display: grid;
-    grid-template-columns: 55%  10% 10% 10% 10% 5%;
+    grid-template-columns: 45%   13% 13% 13% 13% 3%;
     grid-template-areas: "logo about projects resume contact .";
 }
 
@@ -27,42 +22,13 @@
     grid-area: logo;
     text-align: left;
     font-size: large;
-    padding: 15px;
+    padding-left: 15px;
+    color: white;
 }
 
 .Header a{
-    
-}
-.AboutElement  {
-    grid-area: about;
     vertical-align: bottom;
-    text-align: right;
-    padding: 25px;
-}
-.ProjectsElement    {
-    grid-area: projects;
-    vertical-align: bottom;
-    text-align: right;
-    padding: 25px;
-}
-.ProjectsElement  a   {
-    color: #136F63;
-}
-.ResumeElement   {
-    grid-area: resume;
-    vertical-align: bottom;
-    text-align: right;
-    padding: 25px;
-}
-.ResumeElement  {
-    color: #1098F7;
-}
-.ContactElement {
-    grid-area: contact;
-    vertical-align: bottom;
-    text-align: right;
-    padding: 25px;
-}
-.ContactElement a{
-    color: #8F001A;
+    text-align: center;
+    margin-top: 15px;
+    color: white
 }

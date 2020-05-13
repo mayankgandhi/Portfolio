@@ -1,0 +1,69 @@
+.WorkContent  {
+    margin: 100px;
+    font-family: Helvetica;
+}
+
+.ResumeBox  {
+    display: grid;
+    height: 80%;
+    width: 80%;
+    overflow: hidden;   
+    grid-template-columns: 70% auto;
+    grid-template-areas: "workEx edu";
+}
+
+.WorkExperience {
+    grid-area: workEx;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.Title  {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.Education  {
+    grid-area: edu;
+    
+}
+
+.EducationBox   {
+    padding: 10px;
+    background-color: white;
+    font-family: Helvetica;
+    justify-content: left;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.EducationBox p {
+    
+    margin: 0;
+    padding: 0%;
+    text-align: right;
+    font-size: 15px;
+}
+
+.EducationBox h3 {
+ 
+    margin: 0;
+    padding: 0%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.EducationBox h4{
+
+    margin: 0;
+    padding: 0%;
+    text-align: left;
+    font-size: 18px;
+}
