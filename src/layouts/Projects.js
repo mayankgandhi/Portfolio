@@ -34,7 +34,6 @@ class Projects extends React.Component {
 									title="Busibord"
 									text="A service that helps incredible local businesses to get online and grow their online presence."
 									githublink="https://www.busibord.com"
-									stack="React Gatsby.js"
 									tags="
 									<img src=&quot;https://img.icons8.com/color/48/000000/react-native.png&quot;/>
 									<img src=&quot;https://img.icons8.com/color/48/000000/html-5.png&quot;/>

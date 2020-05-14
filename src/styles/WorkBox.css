@@ -26,8 +26,11 @@
 }
 
 .WorkBox ul  {
-
     padding: 10px;
+}
+
+.WorkBox li{
+    font-size: 13px;
 }
 
 
