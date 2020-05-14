@@ -14,20 +14,45 @@ class Education extends React.Component {
 			<div>
 				<Header />
 				<div className="EduContent">
-				<div className="Title">Education</div>
-					<div className="Education">
-						<EduBox
-							school="University of Arizona"
-							degree="B.S. Computer Science"
-							period="Aug '17 - Dec '19"
-							desciption="Minor in Business Administration"
-						/>
+					<div>
+						<h2>Education</h2>
+						<div className="Education">
+							<EduBox
+								school="University of Arizona"
+								degree="B.S. Computer Science"
+								period="Aug '17 - Dec '19"
+								desciption="Minor in Business Administration"
+							/>
+							<EduBox
+								school="Manipal University"
+								degree="B.S. Computer Science"
+								period="Aug '15 - May '17"
+							/>
+						</div>
+					</div>
+					<div>
+						<h2>Skills</h2>
+						<div className="Skills">
+							<div className="Languages">
+								<h3>Languages</h3>
+								Java
+								Swift
+								HTML
+								CSS
+							</div>
+							<div className="Frameworks">
+								<h3>Frameworks</h3>
+								React.js
+								Node
+								Wordpress
+							</div>
+							<div className="Tools">
+								<h3>Tools</h3>
+								Github
+								Postman
+							</div>
+						</div>
 
-						<EduBox
-							school="Manipal University"
-							degree="B.S. Computer Science"
-							period="Aug '15 - May '17"
-						/>
 					</div>
 				</div>
 				<Footer />

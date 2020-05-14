@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Card.css';
+import '../styles/WorkCard.css';
 
-const Card = (props) => (
-	<div className="Card">
+const WorkCard = (props) => (
+	<div className="WorkCard">
 		<a href={props.githublink} target="_blank">
-			<div className="CardTitle">
+			<div className="WorkCardTitle">
 				<h3>{props.title}</h3>
 				<img src="https://img.icons8.com/ios/50/000000/external-link.png" />
 			</div>
@@ -14,4 +14,4 @@ const Card = (props) => (
 	</div>
 );
 
-export default Card;
+export default WorkCard;
