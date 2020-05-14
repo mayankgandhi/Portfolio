@@ -24,6 +24,9 @@ class Projects extends React.Component {
 									text="A Social Media travel application that helps users to plan and share their travel experiences."
 									githublink="https://www.getabord.com"
 									stack="SwiftUI AWS"
+									tags="<img src=&quot;https://img.icons8.com/color/48/000000/swiftui.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/swift.png&quot; />
+									"
 
 								/>
 								<WorkCard
@@ -31,6 +34,11 @@ class Projects extends React.Component {
 									text="A service that helps incredible local businesses to get online and grow their online presence."
 									githublink="https://www.busibord.com"
 									stack="React Gatsby.js"
+									tags="
+									<img src=&quot;https://img.icons8.com/color/48/000000/react-native.png&quot;/>
+									<img src=&quot;https://img.icons8.com/color/48/000000/html-5.png&quot;/>
+									<img src=&quot;https://img.icons8.com/color/48/000000/css3.png&quot;/>
+									"
 								/>
 							</div>
 						</div>
@@ -42,12 +50,18 @@ class Projects extends React.Component {
 									title="BucketList"
 									text="An iOS Application that lets users to add and share their travel bucketList and posts with friends."
 									githublink="https://github.com/mayankgandhi/BucketList"
+									tags="<img src=&quot;https://img.icons8.com/color/48/000000/swift.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/heroku.png&quot; />"
+
 								/>
 								<Card
 									title="HelpHumanity"
 									text="A platform for users to connect with various non-profits and contribute to them."
 									githublink="https://github.com/mayankgandhi/HelpHumanity"
-									stack="SwiftUI Firebase"
+									tags="<img src=&quot;https://img.icons8.com/color/48/000000/swiftui.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/swift.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/firebase.png&quot; />
+									"
 								/>
 								<Card
 									title="Yelp"
@@ -74,7 +88,7 @@ class Projects extends React.Component {
 					<img src="https://img.icons8.com/color/48/000000/yelp.png" />
 					<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
 					<img src="https://img.icons8.com/color/48/000000/css3.png"/>
-					
+					<img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
 				</div>
 				<Footer />
 			</div>

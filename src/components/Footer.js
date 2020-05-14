@@ -7,6 +7,9 @@ const Footer = (props) => (
 			Designed and Developed by<br></br>Mayank Gandhi	<img src="https://bchiang7.github.io/img/emojis/rockon.png" style={{maxHeight: 20}}/>
  ©2020
 		</div>
+		<div className="SiteCredits">
+			Repository on Github
+		</div>
 	</div>
 );
 export default Footer;

@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 html{
   scroll-behavior: smooth;
+  font-family: Cairo ;
 }
 
 body {
-  font-family:  Helvetica;
+  font-family:  Cairo;
   margin: 0;
   font-size: 20px;
   line-height: 1.3;
@@ -21,10 +23,10 @@ section {
   width: 100vw;
   overflow: hidden;
   scroll-snap-align: start;
+  font-family: Cairo;
 }
 
 .container {
-  font-family: Helvetica;
   scroll-snap-type: x mandatory;  
   display: flex;
   -webkit-overflow-scrolling: touch;

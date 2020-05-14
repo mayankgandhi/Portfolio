@@ -35,10 +35,10 @@ class About extends React.Component {
 							</div>
 							<div className="EmailElement">
 								<a
-									href="mailto:mayankgandhi50@gmail.com?subject=Hey%20Dude.%20I%20was%20on%20your%20website..."
+									href="mailto:mayankgandhi50@gmail.com?subject=Hi%20Mayank!%20I%20was%20on%20your%20website..."
 									target="_blank"
 								>
-									<img src="https://img.icons8.com/wired/64/000000/send-mass-email.png"/>
+									<img src="https://img.icons8.com/color/48/000000/gmail.png"/>
 								</a>
 							</div>
 							<div className="TwitterElement">

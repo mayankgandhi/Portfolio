@@ -1,5 +1,6 @@
 .WorkBox {
-    font-family: Helvetica;
+    max-width: 400px;
+    max-height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -8,6 +9,8 @@
     background: white;
     margin: 20px;
     clear: both;
+    padding: 20px;
+    font-family: Cairo;
 }
 
 .WorkBox:hover {
@@ -19,7 +22,15 @@
     font-size: 15px;
     font-weight: 300;
     text-align: left;
+    padding: 0;
 }
+
+.WorkBox ul  {
+
+    padding: 10px;
+}
+
+
 
 .WorkInfo {
     display: grid;
@@ -29,10 +40,8 @@
     justify-content: left;
     align-content: left;
     justify-self: left;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
 }
+
 
 .WorkBox h5 {
     grid-area: period;

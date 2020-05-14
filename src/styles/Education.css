@@ -1,6 +1,6 @@
 .EduContent  {
     margin: 100px;
-    font-family: Helvetica;
+    font-family: Cairo;
 }
 
 .Education  {
@@ -10,4 +10,74 @@
 .Skills {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+}
+
+.Languages, .Frameworks{
+    display: flex;
+    flex-direction: row;
+}
+
+.EduContent h3 {
+   font-weight: 200;
+   text-align: left;
+}
+
+.EduBox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: white;
+    margin: 20px;
+    clear: both;
+    width: 90%;
+    padding: 20px;
+    font-family: Cairo;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "uniName degree"
+    "grad award"
+    "rel ."
+    "courses courses";
+    text-align: left;
+}
+
+.EduBox:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+
+}
+
+.EduBox h2{
+    grid-area: uniName;
+    margin: 0;
+    padding: 10px;
+
+}
+.EduBox h3{
+    grid-area: degree;
+    margin: 0;
+    padding: 10px;
+    
+}
+.EduBox h4{
+    grid-area: rel;
+    margin: 0;
+    padding: 10px;
+}
+.EduBox h5{
+    grid-area: courses;
+    margin: 0;
+    padding: 10px;
+}
+
+.EduBox h6{
+    grid-area: grad;
+    margin: 0;
+    padding: 10px;
+}
+
+.EduBox h7{
+    grid-area: award;
+    margin: 0;
+    padding: 10px;
 }

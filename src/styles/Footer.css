@@ -1,61 +1,29 @@
-.Footer a{
-    font-weight: 300;
-    font-size: medium;
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 3px 3px;
-    text-decoration: none;
-    color: #BBE5D5;
-}
 
-.Footer a:hover{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    padding-bottom: .3em;
-    text-decoration: none; 
-    color: #33847C; 
-}
 
 .Footer     {
-    font-family:Helvetica;
     position: fixed;
-    display: grid;
-    padding: 20px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: transparent;
     color: #BBE5D5;
-    text-align: right;
-    grid-template-columns: 55% 10% 10% 10% 10% 5%;
-    grid-template-areas: "credits github linkedin email twitter .";
     animation: HeroAnimation 1s 2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .DevCredits{
-    grid-area: credits;
     text-align: left;
-    font-size: x-small;
+    font-size: small;
     color: black;
 }
 
-.GithubElement  {
-    grid-area: github;
+.SiteCredits    {
+    text-align: right;
+    font-size: small;
+    color: black;
 }
-.LinkedinElement    {
-    grid-area: linkedin;
-}
-.EmailElement   {
-    grid-area: email;
-}
-.TwitterElement {
-    grid-area: twitter;
-}
-
 
 @keyframes HeroAnimation {
     0% {

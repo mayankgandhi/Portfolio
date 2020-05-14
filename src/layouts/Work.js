@@ -14,11 +14,11 @@ class Work extends React.Component {
 			<div>
 				<Header />
 				<div className="WorkContent">
-					<div className="Work Experience">
-						<div className="Title">Work Experience</div>
+					<h2>Work Experience</h2>
+					<div className="WorkExperience">
 						<WorkBox
 							tags="<a href=&quot;https://www.getabord.com&quot; target=&quot;_blank&quot;>Abord LLC</a>"
-							role="Product Engineer - Web  iOS"
+							role="Product Engineer - Web &amp; iOS"
 							period="Mar '20 - Current"
 							description={[
 								'Translated design plans into full iOS app frameworks, delegating project components to appropriate team members while adhering to Apple Mobile Human Interface Guidelines',

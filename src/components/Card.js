@@ -10,6 +10,7 @@ const Card = (props) => (
 			</div>
 			<h4>{props.text}</h4>
 			<h5>{props.stack}</h5>
+			<div dangerouslySetInnerHTML={{__html: props.tags}} />
 		</a>
 	</div>
 );
