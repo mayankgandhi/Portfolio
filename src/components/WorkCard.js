@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/WorkCard.css';
+import TechLogo from './TechLogo';
 
 const WorkCard = (props) => (
 	<div className="WorkCard">

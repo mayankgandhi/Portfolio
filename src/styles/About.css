@@ -74,7 +74,23 @@
     cursor: pointer;
 }
 
-.GithubElement:hover, .LinkedinElement:hover, .EmailElement:hover,
+
+.ResumeElement {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-justify: distribute;
+}
+
+
+.ResumeElement:hover, .GithubElement:hover, .LinkedinElement:hover, .EmailElement:hover,
 .TwitterElement:hover {
     transform: scale(1.1, 1.1);
     box-shadow: 0 30px 60px rgba(0,0,0, 0.5);

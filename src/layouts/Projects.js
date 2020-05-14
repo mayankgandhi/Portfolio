@@ -23,9 +23,10 @@ class Projects extends React.Component {
 									title="Abord"
 									text="A Social Media travel application that helps users to plan and share their travel experiences."
 									githublink="https://www.getabord.com"
-									stack="SwiftUI AWS"
 									tags="<img src=&quot;https://img.icons8.com/color/48/000000/swiftui.png&quot; />
 									<img src=&quot;https://img.icons8.com/color/48/000000/swift.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/amazon-s3.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/jira.png&quot; />
 									"
 
 								/>
@@ -64,16 +65,18 @@ class Projects extends React.Component {
 									"
 								/>
 								<Card
-									title="Yelp"
-									text="A React website showcasing my skills, projects and background"
-									stack="React Gatsby.js Firebase"
-									githublink="https://github.com/mayankgandhi/Portfolio"
+									title="Pokemon Ball"
+									text="Collaboratively built a top-down adventure game similar to Legend of Zelda with 9 different areas of
+									explorable content on the map."
+									tags="<img src=&quot;https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png&quot;/>"
+									githublink="https://github.com/CSC335Spring2019/csc335-team-zelda-finalproject-ryan-denny-mayank-dominic"
 								/>
 								<Card
 									title="Twitter"
-									text="A React website showcasing my skills, projects and background"
-									stack="React Gatsby.js Firebase"
-									githublink="https://github.com/mayankgandhi/Portfolio"
+									text="A Twitter clone that allows users to tweet, share and like tweets and follow users using Twitter API."
+									tags="<img src=&quot;https://img.icons8.com/color/48/000000/swiftui.png&quot; />
+									<img src=&quot;https://img.icons8.com/color/48/000000/swift.png&quot; />"
+									githublink="https://github.com/mayankgandhi/Twitter"
 								/>
 							</div>
 						</div>

@@ -28,9 +28,6 @@ module.exports = class HTML extends React.Component {
 					{this.props.preBodyComponents}
 					<div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
 					{this.props.postBodyComponents}
-					<script src="/__/firebase/7.14.3/firebase-app.js" />
-					<script src="/__/firebase/7.14.3/firebase-analytics.js" />
-					<script src="/__/firebase/init.js" />
 				</body>
 			</html>
 		);

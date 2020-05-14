@@ -8,7 +8,7 @@ const Footer = (props) => (
  ©2020
 		</div>
 		<div className="SiteCredits">
-			Repository on Github
+			Repository on <a href="https://github.com/mayankgandhi/Portfolio" target="_blank">Github</a>
 		</div>
 	</div>
 );

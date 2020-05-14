@@ -46,6 +46,15 @@ class About extends React.Component {
 								<img src={twitterlogo}/>
 								</a>
 							</div>
+							<div className="ResumeElement">
+								<a download href="../images/ResumeMayankGandhi.pdf">
+								<img src="https://img.icons8.com/ios-filled/50/000000/resume.png"/>
+								
+								</a>
+							</div>
+
+
+							
 						</div>
 						<div className="DonateBox">
 							<p>Please help by donating to UN WFP or any other Non-profit of your choice.</p> 

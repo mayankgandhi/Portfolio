@@ -9,7 +9,6 @@ const Card = (props) => (
 				<img src="https://img.icons8.com/ios/50/000000/external-link.png" />
 			</div>
 			<h4>{props.text}</h4>
-			<h5>{props.stack}</h5>
 			<div dangerouslySetInnerHTML={{__html: props.tags}} />
 		</a>
 	</div>
