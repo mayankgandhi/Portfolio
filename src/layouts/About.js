@@ -20,8 +20,8 @@ class About extends React.Component {
 				<div className="AboutContent">
 					<div className="Hero">
 						<h1>Hello World!</h1>
-						<h4>My name is Mayank, I love building things! Things like this website, a mobile app or even some
-						delicious food!</h4>
+						<h3>My name is Mayank, I am a Full Stack Software Engineer and I love making stuff!<br />Stuff like this website, a mobile app or even some
+						delicious food!</h3>
 						<div className="LinkBox">
 							<div className="GithubElement">
 								<a href="https://github.com/mayankgandhi/" target="_blank">

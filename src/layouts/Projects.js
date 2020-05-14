@@ -79,16 +79,6 @@ class Projects extends React.Component {
 						</div>
 					</div>
 
-					<img src="https://img.icons8.com/color/48/000000/swiftui.png" />
-					<img src="https://img.icons8.com/color/48/000000/swift.png" />
-					<img src="https://img.icons8.com/color/48/000000/react-native.png" />
-					<img src="https://img.icons8.com/color/48/000000/firebase.png" />
-					<img src="https://img.icons8.com/color/48/000000/heroku.png" />
-					<img src="https://img.icons8.com/color/48/000000/twitter.png" />
-					<img src="https://img.icons8.com/color/48/000000/yelp.png" />
-					<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-					<img src="https://img.icons8.com/color/48/000000/css3.png"/>
-					<img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
 				</div>
 				<Footer />
 			</div>

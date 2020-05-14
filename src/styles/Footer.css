@@ -9,20 +9,26 @@
     color: #BBE5D5;
     animation: HeroAnimation 1s 2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "dev . site";
+
 }
 
 .DevCredits{
+    grid-area: dev;
     text-align: left;
     font-size: small;
     color: black;
+    padding: 20px;
 }
 
 .SiteCredits    {
+    grid-area:site;
     text-align: right;
     font-size: small;
     color: black;
+    padding: 20px;
 }
 
 @keyframes HeroAnimation {
