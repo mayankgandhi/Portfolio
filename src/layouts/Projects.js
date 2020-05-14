@@ -19,7 +19,8 @@ class Projects extends React.Component {
 						<Card title="Photo Share" text="This is a photosharing project" />
 						<Card title="Photo Share" text="This is a photosharing project" />
 						<Card title="Photo Share" text="This is a photosharing project" />
-						<Card title="Photo Share" text="This is a photosharing project" />
+						<Card title="Portfolio-site" text="A React website showcasing my skills, projects and background"
+						stack="React Gatsby.js Firebase" />
 					</div>
 				</div>
 				<Footer />

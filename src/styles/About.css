@@ -20,11 +20,19 @@
     opacity: 0;
     text-align: left;
     padding-left: 15%;
+    justify-content: center;
 }
 
 .Hero h1{
     margin: 0 0 0 0;
     font-weight: 200;
+    padding: 20px;
+}
+
+.Hero h4{
+    margin: 0 0 0 0;
+    font-weight: 200;
+    padding: 20px;
 }
 
 .homeAnimation  {
@@ -51,7 +59,7 @@
       opacity: 0;
   }
 
-.Hero img{
+.LinkBox img{
     max-width: 48px;
 }
 
@@ -71,3 +79,34 @@
     transform: scale(1.1, 1.1);
     box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
 }
+
+.DonateBox  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    justify-items: left;
+}
+
+.DonateBox  {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.DonateBox img:hover  {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
+}
+
+.DonateBox img{
+    width:192px;
+    height: 89.6px;
+    border-radius: 10px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.DonateBox a,p {
+    padding-left: 20px;
+    margin-left: 0;
+    margin-right: auto;
+}
+

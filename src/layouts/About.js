@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import githubimage from '../images/GitHub-Mark-120px-plus.png';
 import linkedinimage from '../images/LI-In-Bug.png';
 import twitterlogo from '../images/Twitter_Logo_Blue.png';
+import wfplogo from '../images/WFP-logo.png';
 
 class About extends React.Component {
 	constructor(props) {
@@ -16,12 +17,11 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className="AboutContainer">
-				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
 				<div className="AboutContent">
 					<div className="Hero">
 						<h1>Hello World!</h1>
-						My name is Mayank, I love building things! Things like this website, a mobile app or even some
-						delicious food!
+						<h4>My name is Mayank, I love building things! Things like this website, a mobile app or even some
+						delicious food!</h4>
 						<div className="LinkBox">
 							<div className="GithubElement">
 								<a href="https://github.com/mayankgandhi/" target="_blank">
@@ -46,6 +46,12 @@ class About extends React.Component {
 								<img src={twitterlogo}/>
 								</a>
 							</div>
+						</div>
+						<div className="DonateBox">
+							<p>Please help by donating to UN WFP or any other Non-profit of your choice.</p> 
+							<a href="https://donatenow.wfp.org/" target="_blank">
+									<img src={wfplogo}/>
+								</a>
 						</div>
 					</div>
 

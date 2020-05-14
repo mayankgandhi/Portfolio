@@ -27,7 +27,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #1b0e58;
+    background-color: transparent;
     color: #BBE5D5;
     text-align: right;
     grid-template-columns: 55% 10% 10% 10% 10% 5%;
@@ -40,6 +40,7 @@
     grid-area: credits;
     text-align: left;
     font-size: x-small;
+    color: black;
 }
 
 .GithubElement  {
