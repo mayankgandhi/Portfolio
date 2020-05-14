@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import '../styles/Work.css';
 import WorkBox from '../components/WorkBox';
+import Footer from '../components/Footer';
 
 class Work extends React.Component {
 	constructor(props) {
@@ -50,6 +51,7 @@ class Work extends React.Component {
 						/>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}

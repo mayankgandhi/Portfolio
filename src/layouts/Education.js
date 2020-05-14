@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import '../styles/Education.css';
 import EduBox from '../components/EduBox';
+import Footer from '../components/Footer';
 
 class Education extends React.Component {
 	constructor(props) {
@@ -29,6 +30,7 @@ class Education extends React.Component {
 						/>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}

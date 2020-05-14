@@ -1,13 +1,12 @@
 .AboutContainer {
     align-items: center;
-    
 }
 
 .AboutContent {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-areas: "hero animate";
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .homeAnimation  {
@@ -17,9 +16,58 @@
 
 .Hero   {
     grid-area: hero ;
+    animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.Hero h1{
+    margin: 0 0 0 0;
+    font-weight: 200;
 }
 
 .homeAnimation  {
     grid-area: animate;
     padding: 20px;
+}
+
+
+@keyframes slideAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+  }
+
+  .LinkBox  {
+      display: flex;
+      margin: 20px 20px;
+      animation: HeroAnimation 3s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      opacity: 0;
+  }
+
+.Hero img{
+    max-width: 48px;
+}
+
+.GithubElement,.LinkedinElement,.EmailElement,
+.TwitterElement {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+}
+
+.GithubElement:hover, .LinkedinElement:hover, .EmailElement:hover,
+.TwitterElement:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
 }

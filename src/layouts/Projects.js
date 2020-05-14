@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../components/Card';
 import '../styles/Projects.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 class Projects extends React.Component {
 	constructor(props) {
@@ -21,6 +22,7 @@ class Projects extends React.Component {
 						<Card title="Photo Share" text="This is a photosharing project" />
 					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}
