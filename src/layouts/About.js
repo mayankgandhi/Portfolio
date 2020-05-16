@@ -47,7 +47,7 @@ class About extends React.Component {
 								</a>
 							</div>
 							<div className="ResumeElement">
-								<a download href="../images/ResumeMayankGandhi.pdf">
+								<a download href="https://firebasestorage.googleapis.com/v0/b/portfolio-a0075.appspot.com/o/ResumeMayankGandhi.pdf?alt=media&token=02ecc6c7-b63b-430b-82a8-6b4cbd9b0834" target="_blank">
 								<img src="https://img.icons8.com/ios-filled/50/000000/resume.png"/>
 								
 								</a>
