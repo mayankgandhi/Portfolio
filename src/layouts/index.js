@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import '../styles/index.css'
 import Header from '../components/Header'
 
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
